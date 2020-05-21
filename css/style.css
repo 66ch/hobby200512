@@ -48,6 +48,11 @@
 /* ヘッダー */
 
 /* メインコンテンツ */
+.main-content {
+  padding: 50px 0;
+  background-color: #FAF5ED;
+}
+
 .section-header{
   margin-bottom: 30px;
 }
@@ -95,7 +100,7 @@
 }
 
 /* .work_listを構成する要素かつ一番最後以外にはmargin-bottmを設定する */
-.work_list__item:not(:last-child){
+.work-list__item:not(:last-child){
   margin-bottom: 30px;
 }
 /* メインコンテンツ */
